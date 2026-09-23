@@ -10,6 +10,8 @@ module ro_puf #(
     input  ena,
     output ro_out
 );
+    (* KEEP="TRUE" *)
+    (* DONT_TOUCH="TRUE" *)
 
     wire [N-1:0] stage;
 
