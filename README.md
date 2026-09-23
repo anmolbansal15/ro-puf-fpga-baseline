@@ -7,8 +7,10 @@ Unclonable Function (RO-PUF) project.
 
 - Parameterized gated RO, with an odd number of stages.
 - N=7 behavioral simulation testbench.
-- Expected N=7 period: approximately 14 ns for the provided 1 ns simulated
-  delay per stage, or approximately 71.4 MHz.
+- Vivado synthesis tested for FPGA implementation.
+- `KEEP` and `DONT_TOUCH` attributes added to preserve the RO stage chain.
+- Complete N=7 RO structure is retained in the Vivado synthesized schematic.
+- Target FPGA: XC7S50CSGA324-1 (Spartan-7).
 
 ## Architecture
 
